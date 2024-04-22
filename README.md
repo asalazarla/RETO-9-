@@ -20,3 +20,12 @@ Utilice la siguiente plantilla de code para contar el tiempo:
 
 ```
 ```
+
+
+
+
+
+
+6. Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
+   -
+https://www.linkedin.com/in/angie-carolina-salazar-lara-78665b305/
