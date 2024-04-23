@@ -1,8 +1,8 @@
 # RETO 9
  
-1. De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
+**1. De los retos anteriores selecione 3 funciones y escríbalas en forma de lambdas.**
    -
-* Como primer función, seleccioné la siguiente función: En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18.9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A. Extraída del **Reto 7, numeral 4**.
+* Como primer función, seleccioné la siguiente : En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18.9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A. Extraída del **Reto 7, numeral 4**.
 
 ``` python
 # Datos iniciales
@@ -60,7 +60,7 @@ numero = int(input("Ingrese un número entre 2 y 50: "))
 print_divisors(numero)
 ```
 
-2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
+**2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).**
    -
 * Imprimir los números de 1 hasta un número natural n dado, cada uno con su respectivo factorial.  **Reto 8, numeral 4**.
 
@@ -118,7 +118,7 @@ def imprimir_numeros(*args):
 imprimir_numeros((1, 999), (2, 1000))
  ```
     
-3. Escriba una función recursiva para calcular la operación de la potencia.
+**3. Escriba una función recursiva para calcular la operación de la potencia.**
    -
 ``` python
 def potencia(base, exponente):
@@ -137,7 +137,7 @@ base = 2
 exponente = 3
 print(f"{base} elevado a la {exponente} es {potencia(base, exponente)}")
 ```
-4. Utilice la siguiente plantilla de code para contar el tiempo:
+**4. Utilice la siguiente plantilla de code para contar el tiempo:**
    -
  ``` python
  import time
@@ -183,10 +183,10 @@ timer_iterativo = end_time - start_time
 print(f"Tiempo para Fibonacci iterativo: {timer_iterativo} segundos")
 ```
 
-5. Crear cuenta en [stackoverflow](https://stackoverflow.com/) y adjuntar imagen en el repo:
+**5. Crear cuenta en [stackoverflow](https://stackoverflow.com/) y adjuntar imagen en el repo:**
    -
  [![Captura-de-pantalla-2024-04-22-162700.png](https://i.postimg.cc/WzVzgGWd/Captura-de-pantalla-2024-04-22-162700.png)](https://postimg.cc/cgDdNnNW)
 
-6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
+**6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.**
    -
 https://www.linkedin.com/in/angie-carolina-salazar-lara-78665b305/
