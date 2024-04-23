@@ -62,14 +62,100 @@ print_divisors(numero)
 
 2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
    -
+* Imprimir los números de 1 hasta un número natural n dado, cada uno con su respectivo factorial.  Reto 8, numeral 4.
 
+``` python
+  def calcular_factorial(*args):
+    for numero in args:
+        if numero >= 1:
+            factorial = 1
+            for i in range(2, numero + 1):
+                factorial *= i
+            print(f"{numero}! = {factorial}")
+        else:
+            print("El número debe ser positivo y mayor que cero.")
+
+if __name__ == "__main__":
+    while True:
+        try:
+            n = int(input("Introduce un número natural n: "))
+            if n >= 1:
+                break
+            else:
+                print("El número debe ser positivo y mayor que cero.")
+        except ValueError:
+            print("No has ingresado un número válido. Por favor, introduce un número natural.")
+
+    calcular_factorial(n)
+```
+  
+* Diseñe un programa que muestre las tablas de multiplicar del 1 al 9. Reto 8 , numeral 7
+
+``` python
+def tablas_de_multiplicar(*args):
+    for numero in args:
+        print(f"Tabla de multiplicar del {numero}:")
+        for multiplicador in range(1, 11):
+            producto = numero * multiplicador
+            print(f"{numero} x {multiplicador} = {producto}")
+        print("")
+
+# Llamar a la función con los números del 1 al 9
+tablas_de_multiplicar(*range(1, 10))
+```
+
+* Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.  Reto 8, numeral 2
+ 
+ ```python
+def imprimir_numeros(*args):
+    for inicio, fin in args:
+        print(f"Números desde {inicio} hasta {fin}:")
+        for numero in range(inicio, fin + 1):
+            print(numero)
+        print("")
+
+# Llamar a la función con los rangos deseados
+imprimir_numeros((1, 999), (2, 1000))
+ ```
+    
 3. Escriba una función recursiva para calcular la operación de la potencia.
    -
+``` python
+def potencia(base, exponente):
+    # Caso base
+    if exponente == 0:
+        return 1
+    # Caso base para exponentes negativos
+    elif exponente < 0:
+        return 1 / potencia(base, -exponente)
+    # Paso recursivo
+    else:
+        return base * potencia(base, exponente - 1)
 
-5. Crear cuenta en stackoverflow y adjuntar imagen en el repo
+# Ejemplo de uso
+base = 2
+exponente = 3
+print(f"{base} elevado a la {exponente} es {potencia(base, exponente)}")
+```
+4. Utilice la siguiente plantilla de code para contar el tiempo:
+   -
+ ``` python
+ import time
+
+start_time = time.time()
+# instrucciones sobre las cuales se quiere medir tiempo de ejecución
+end_time = time.time()
+
+timer = end_time - start_time
+print(timer)
+```
+* Realice pruebas para calcular fibonacci con iteración o con recursión. Determine desde que número de la serie la diferencia de tiempo se vuelve significativa. Importante: Revisar este [hilo](https://stackoverflow.com/questions/8220801/how-to-use-timeit-module).
+
+
+5. Crear cuenta en [stackoverflow](https://stackoverflow.com/) y adjuntar imagen en el repo:
    -
  [![Captura-de-pantalla-2024-04-22-162700.png](https://i.postimg.cc/WzVzgGWd/Captura-de-pantalla-2024-04-22-162700.png)](https://postimg.cc/cgDdNnNW)
 
-6. Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
+6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
    -
 https://www.linkedin.com/in/angie-carolina-salazar-lara-78665b305/
