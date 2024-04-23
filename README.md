@@ -60,12 +60,12 @@ numero = int(input("Ingrese un número entre 2 y 50: "))
 print_divisors(numero)
 ```
 
-**2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).**
+*2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).**
    -
 * Imprimir los números de 1 hasta un número natural n dado, cada uno con su respectivo factorial.  **Reto 8, numeral 4**.
 
 ``` python
-  def calcular_factorial(*args):
+def calcular_factorial(*args):
     for numero in args:
         if numero >= 1:
             factorial = 1
