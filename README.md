@@ -135,7 +135,7 @@ def potencia(base, exponente):
 # Ejemplo de uso
 base = 2
 exponente = 3
-print(f"{base} elevado a la {exponente} es {potencia(base, exponente)}")
+print(f"{base} elevado a la {exponente} es {potencia(base, exponente)}")
 ```
 4. Utilice la siguiente plantilla de code para contar el tiempo:
    -
