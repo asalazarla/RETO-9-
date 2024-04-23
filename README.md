@@ -62,7 +62,7 @@ print_divisors(numero)
 
 2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
    -
-* Imprimir los números de 1 hasta un número natural n dado, cada uno con su respectivo factorial.  Reto 8, numeral 4.
+* Imprimir los números de 1 hasta un número natural n dado, cada uno con su respectivo factorial.  **Reto 8, numeral 4**.
 
 ``` python
   def calcular_factorial(*args):
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     calcular_factorial(n)
 ```
   
-* Diseñe un programa que muestre las tablas de multiplicar del 1 al 9. Reto 8 , numeral 7
+* Diseñe un programa que muestre las tablas de multiplicar del 1 al 9. **Reto 8 , numeral 7**.
 
 ``` python
 def tablas_de_multiplicar(*args):
@@ -104,7 +104,7 @@ def tablas_de_multiplicar(*args):
 tablas_de_multiplicar(*range(1, 10))
 ```
 
-* Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.  Reto 8, numeral 2
+* Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.  **Reto 8, numeral 2**.
  
  ```python
 def imprimir_numeros(*args):
